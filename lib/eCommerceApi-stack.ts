@@ -4,13 +4,13 @@ import * as cwlogs from "aws-cdk-lib/aws-logs"
 import * as cdk from "aws-cdk-lib"
 import { Construct } from "constructs"
 
-interface EcommerceApiStackProps extends cdk.StackProps {
+interface ECommerceApiStackProps extends cdk.StackProps {
     productsFetchHandler: lambdaNodeJS.NodejsFunction
 }
 
-export class EcommerceApiStack extends cdk.Stack {
+export class ECommerceApiStack extends cdk.Stack {
 
-    constructor(scope: Construct, id: string, props: EcommerceApiStackProps) {
+    constructor(scope: Construct, id: string, props: ECommerceApiStackProps) {
         super(scope, id, props)
 
         const logGroup = new cwlogs.LogGroup(this, "EcommerceApiLogs")
