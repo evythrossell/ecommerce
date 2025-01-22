@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "ec85af8a-de63-4cd4-a8ce-1cd3321cbcc8",
+		"name": "AWS Serverless com Typescript e AWS CDK",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14679031"
+	},
+	"item": [
+		{
+			"name": "GET products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://t240a9ne43.execute-api.us-east-1.amazonaws.com/prod/",
+					"protocol": "https",
+					"host": [
+						"t240a9ne43",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "GET products",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://t240a9ne43.execute-api.us-east-1.amazonaws.com/prod/",
+							"protocol": "https",
+							"host": [
+								"t240a9ne43",
+								"execute-api",
+								"us-east-1",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"prod",
+								""
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
